@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Pousada Sol e Lua</h1>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home |</a></li>
+				<li><a href="../HTML/acomodacoes.html">Acomodações |</a></li>
+				<li><a href="../HTML/serviços.html">Serviços |</a></li>
+				<li><a href="../HTML/galeria.html">Galeria |</a></li>
+				<li><a href="../HTML/contato.html">Contato </a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+        <h2 class="titulo1">Entre em contato</h2>
+        <div class="container3">
+            <form action="cadastro" name="cadastro" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for = "c-nome"> Seu nome (obrigatório): </label> 
+                    <input type="text" name="nome" id="c-nome" required autofocus>
+        
+                    <label for = "c-email"> Seu e-mail (obrigatório): </label>
+                    <input type="email" name="e-mail" id="c-email" required autofocus>
+        
+                    <label for="c-phone">Seu telefone</label>
+                    <input type="tel" name="phone" id="c-phone">
+        
+                    <label for="c-obs">Sua mensagem</label>
+                    <textarea name="observacao" id="c-obs" cols="30" rows="10"></textarea>
+                </fieldset>
+        
+                <input type="submit" value="Enviar" id="botao-formulario">
+            </form>
+        </div>
+    </main>
+   
+<footer>
+    <h1 class="logo">Pousada Sol e Lua</h1>
+    <p id="p">R. Vinte e Três de Maio, 346 - Nova Mirim, Praia Grande - SP, 11704-690</p>
+</footer>
+</body>
+</html>
